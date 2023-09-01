@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade formulario</title>
+</head>
+<body>
+    <form action=""></form>
+    <fieldset>
+        <legend>Formulário dado do aluno</legend>
+        <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome" required>
+        </div>
+
+        <div>
+            <p>Qual a sua turma?</p>
+        </div>
+
+        <div>
+            <input type="radio" id="opcao1" name="turma">
+            <label for="opcao2">TI01MA</label>
+        </div>
+
+        <div>
+            <input type="radio" id="opcao2" name="turma">
+            <label for="opcao2">TI01MB</label>
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+
+        <div>
+            <label for="esm">Ensino Médio:</label>
+            <input type="checkbox" id="esm" name="esm">
+        </div>
+
+
+        <div>
+            <label for="carro">Infome seu carro:</label>
+            <select name="carro" id="carro">
+                <option disabled selected>Selecione...</option>
+                <option value="bmw">Bmw</option>
+                <option value="ford">Ford</option>
+                <option value="honda">Honda</option>
+                <option value="hyundai">Hyundai</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="numerochamado">Número de chamada:</label>
+            <input type="number" id="numerochamada" name="numerochamada">
+        </div>
+
+        <button>Enviar</button>
+    
+    </fieldset>
+</body>
+</html>
