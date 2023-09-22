@@ -1,6 +1,14 @@
+#titulo-id {
+    color: purple;
+}
+
+.cor-amarela {
+    color: yellow;
+}
+
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;
+    color: tomato;
     font-size: 36px;
 }
 
@@ -11,9 +19,20 @@ p {
 }
 
 h2 {
-    color: red;
+    color: blue;
 }
 
 .fundo-verde {
     background: #0f0;
 }
+
+.fonte-grande {
+    font-size: 50px;
+}
+
+#titulo-principal {
+    background: black;
+    color: white;
+}
+
+/*especificidade*/
